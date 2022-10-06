@@ -76,3 +76,14 @@ a {
     gap: 40px;
   }
 }
+.kampagnevideo {
+  display: grid;
+  place-items: center center;
+  margin: 30px;
+  padding: 30px;
+}
+@media screen and (min-width: 730px) {
+  .kampagnevideo {
+    padding: 50px;
+  }
+}

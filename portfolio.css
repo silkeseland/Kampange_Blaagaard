@@ -21,7 +21,7 @@ p {
 
 body {
   background-color: black;
-  padding: 30px;
+  margin: 30px;
 }
 hr {
   border-bottom: 2px solid white;
@@ -126,7 +126,7 @@ ul {
 /* farve og font på skriften a i menuen */
 a {
   font-family: "Bebas Neue", cursive;
-  font-size: 35px;
+  font-size: 1.6rem;
 }
 /* underline på valgte menu*/
 .valgt {

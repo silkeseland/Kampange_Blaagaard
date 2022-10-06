@@ -27,6 +27,26 @@ hr {
   border-bottom: 2px solid white;
   width: 100%;
 }
+#kapitler {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center center;
+  column-gap: 28px;
+  height: 16rem;
+  margin-inline: 2rem;
+  row-gap: 10px;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+button {
+  border: 2px solid white;
+  padding: 10px;
+}
+
 @media screen and (min-width: 730px) {
   .start {
     display: grid;
@@ -42,4 +62,5 @@ footer {
 .footer_rettigheder {
   display: flex;
   justify-content: center;
+  font-size: 0.8rem;
 }

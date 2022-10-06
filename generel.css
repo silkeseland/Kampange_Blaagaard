@@ -42,8 +42,8 @@ p {
   justify-items: center;
 }
 ul {
-  padding-top: 9%;
-  padding-right: 50px;
+  padding-top: 10%;
+  padding-right: 110px;
   display: flex;
   gap: 100px;
   justify-content: center;
@@ -79,4 +79,13 @@ ul {
     flex: 1 1 100%;
     flex-flow: column;
   }
+}
+/* farve og font på skriften a i menuen */
+a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 35px;
+}
+
+.valgt {
+  text-decoration: underline;
 }

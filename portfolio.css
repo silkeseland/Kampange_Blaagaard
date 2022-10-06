@@ -41,10 +41,7 @@ hr {
   margin-bottom: 5rem;
   margin-top: 2rem;
 }
-button {
-  border: 2px solid white;
-  padding: 10px;
-}
+
 @media (min-width: 627px) {
   #kapitler {
     color: white;
@@ -71,7 +68,7 @@ button {
   }
 }
 footer {
-  padding-top: 30px;
+  padding: 30px;
 }
 .footer_rettigheder {
   display: flex;
@@ -145,4 +142,8 @@ a {
 /* underline på valgte menu*/
 .valgt {
   text-decoration: underline;
+}
+button {
+  border: 2px solid white;
+  padding: 10px 50px 10px 50px;
 }

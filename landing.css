@@ -2,6 +2,8 @@ body {
   background-color: #ffc2fe;
   margin: 10px;
 }
+/* Menu */
+
 /* Mindre logo placering på de andre sider */
 .logo {
   width: 200px;
@@ -76,6 +78,13 @@ a {
     gap: 40px;
     place-items: center center;
   }
+  .spørgeskema {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    gap: 40px;
+    place-items: center center;
+  }
 }
 .kampagnevideo {
   display: grid;
@@ -91,5 +100,5 @@ a {
 .learn-button {
   border: 2px solid black;
   padding: 7px 60px 7px 60px;
-  margin-top: 40px;
+  margin-top: 20px;
 }

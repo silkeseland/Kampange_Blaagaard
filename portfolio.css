@@ -16,12 +16,30 @@ h3 {
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  max-width: 65ch;
 }
 
 body {
   background-color: black;
+  padding: 30px;
 }
 hr {
   border-bottom: 2px solid white;
   width: 100%;
+}
+@media screen and (min-width: 730px) {
+  .start {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    gap: 20px;
+    place-items: center center;
+  }
+}
+footer {
+  padding: 2rem 2rem 0rem 2rem;
+}
+.footer_rettigheder {
+  display: flex;
+  justify-content: center;
 }

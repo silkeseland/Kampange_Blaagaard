@@ -20,7 +20,7 @@ body {
 }
 ul {
   padding-top: 10%;
-  padding-right: 110px;
+  padding-right: 30px;
   display: flex;
   gap: 100px;
   justify-content: center;
@@ -62,7 +62,7 @@ ul {
 /* farve og font på skriften a i menuen */
 a {
   font-family: "Bebas Neue", cursive;
-  font-size: 35px;
+  font-size: 28px;
 }
 /* underline på valgte menu*/
 .valgt {

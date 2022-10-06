@@ -62,7 +62,7 @@ ul {
 /* farve og font på skriften a i menuen */
 a {
   font-family: "Bebas Neue", cursive;
-  font-size: 28px;
+  font-size: 1.6rem;
 }
 /* underline på valgte menu*/
 .valgt {

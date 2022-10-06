@@ -13,6 +13,12 @@ html {
   --primary-color: ;
   --background-color: ;
 }
+
 h1 {
-  font-family: ;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem;
 }

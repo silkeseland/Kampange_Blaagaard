@@ -74,6 +74,5 @@ a {
     grid-template-columns: 1fr 1fr;
     margin: 100px;
     gap: 40px;
-    place-items: center center;
   }
 }

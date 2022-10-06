@@ -21,7 +21,7 @@ p {
 
 body {
   background-color: black;
-  padding: 30px;
+  margin: 30px;
 }
 hr {
   border-bottom: 2px solid white;
@@ -57,10 +57,78 @@ button {
   }
 }
 footer {
-  padding: 2rem 2rem 0rem 2rem;
+  padding-top: 30px;
 }
 .footer_rettigheder {
   display: flex;
   justify-content: center;
   font-size: 0.8rem;
+}
+/* header */
+/* Mindre logo placering på de andre sider */
+.logo {
+  width: 200px;
+  height: 90px;
+  margin: 0rem;
+  padding: 1rem;
+  display: flex;
+  justify-self: center;
+}
+.banner {
+  color: white;
+  background: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+}
+ul {
+  padding-top: 10%;
+  padding-right: 110px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  list-style: none;
+}
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 60px;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  font-size: 60px;
+}
+
+@media (max-width: 627px) {
+  .toggle-btn {
+    display: block;
+    color: white;
+  }
+  .main-menu {
+    display: contents;
+  }
+  .main-menu ul {
+    display: none;
+    gap: 30px;
+  }
+  .main-menu.shown ul {
+    border-top: 1px solid white;
+    padding: 1rem;
+    gap: 1px;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+}
+/* farve og font på skriften a i menuen */
+a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem;
+}
+/* underline på valgte menu*/
+.valgt {
+  text-decoration: underline;
 }

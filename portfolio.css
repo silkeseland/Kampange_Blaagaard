@@ -41,6 +41,15 @@ hr {
   border-bottom: 2px solid white;
   width: 100%;
 }
+@media screen and (min-width: 627px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center center;
+  }
+  .item-1 {
+  }
+}
 #kapitler {
   color: white;
   font-family: "Bebas Neue", cursive;

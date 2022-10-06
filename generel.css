@@ -1,0 +1,12 @@
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  --primary-color: ;
+  --background-color: ;
+}

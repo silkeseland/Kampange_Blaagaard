@@ -1,0 +1,9 @@
+/* Mindre logo placering på de andre sider */
+.logo {
+  width: 200px;
+  height: 90px;
+  margin: 0rem;
+  padding: 1rem;
+  display: flex;
+  justify-self: center;
+}

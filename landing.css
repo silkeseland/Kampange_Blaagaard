@@ -1,6 +1,6 @@
 body {
   background-color: #ffc2fe;
-  margin: 30px;
+  margin: 10px;
 }
 /* Mindre logo placering på de andre sider */
 .logo {
@@ -67,4 +67,13 @@ a {
 /* underline på valgte menu*/
 .valgt {
   text-decoration: underline;
+}
+@media screen and (min-width: 730px) {
+  .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    gap: 40px;
+    place-items: center center;
+  }
 }

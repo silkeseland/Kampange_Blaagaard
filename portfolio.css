@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+  margin: 30px;
+}
 h1 {
   font-family: "Bebas Neue", cursive;
   font-size: 2rem;
@@ -19,10 +23,6 @@ p {
   max-width: 65ch;
 }
 
-body {
-  background-color: black;
-  margin: 30px;
-}
 hr {
   border-bottom: 2px solid white;
   width: 100%;
@@ -36,7 +36,6 @@ hr {
   grid-template-columns: 1fr 1fr;
   place-content: center center;
   column-gap: 28px;
-  height: 16rem;
   margin-inline: 2rem;
   row-gap: 10px;
   margin-bottom: 5rem;
@@ -45,6 +44,21 @@ hr {
 button {
   border: 2px solid white;
   padding: 10px;
+}
+@media (min-width: 627px) {
+  #kapitler {
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr;
+    place-content: center center;
+    column-gap: 28px;
+    margin-inline: 2rem;
+    row-gap: 10px;
+    margin-bottom: 5rem;
+  }
 }
 
 @media screen and (min-width: 730px) {

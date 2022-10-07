@@ -165,6 +165,14 @@ a {
   font-family: "Bebas Neue", cursive;
   font-size: 1.6rem;
 }
+a p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+}
+a p:hover {
+  padding-left: 10px;
+}
 /* underline på valgte menu*/
 .valgt {
   text-decoration: underline;
@@ -195,4 +203,9 @@ a {
 .footer_right img {
   padding: 30px 10% 30px 10%;
   justify-self: end end;
+}
+img {
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
 }

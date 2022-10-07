@@ -46,6 +46,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center center;
+    gap: 30px;
   }
   .item-1 {
   }
@@ -165,6 +166,14 @@ a {
   font-family: "Bebas Neue", cursive;
   font-size: 1.6rem;
 }
+a p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+}
+a p:hover {
+  padding-left: 10px;
+}
 /* underline på valgte menu*/
 .valgt {
   text-decoration: underline;
@@ -195,4 +204,9 @@ a {
 .footer_right img {
   padding: 30px 10% 30px 10%;
   justify-self: end end;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
 }

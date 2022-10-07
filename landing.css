@@ -115,7 +115,6 @@ a {
 .video {
   display: grid;
   /* place-items: center; */
-  margin: 70px;
   padding: 30px;
 }
 /* glow effekt, når man hover over knapperne */

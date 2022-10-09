@@ -196,11 +196,11 @@ a p:hover {
 /* galleri mobile */
 /* define */
 .grid_container1 {
-  margin-inline: 20px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
-  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .define-1 {
@@ -209,7 +209,7 @@ a p:hover {
 
 /* research */
 .grid_container2 {
-  margin-inline: 20px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -225,8 +225,8 @@ a p:hover {
 }
 
 .research-2 {
-  padding-bottom: 50px;
-  margin-inline: 20px;
+  margin-bottom: 100px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -235,7 +235,7 @@ a p:hover {
 
 /* ideate */
 .grid_container3 {
-  margin-inline: 20px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -251,8 +251,8 @@ a p:hover {
 }
 
 .ideate-2 {
-  padding-bottom: 50px;
-  margin-inline: 20px;
+  margin-bottom: 100px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -261,7 +261,7 @@ a p:hover {
 
 /* prototype */
 .grid_container4 {
-  margin-inline: 20px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -277,8 +277,8 @@ a p:hover {
 }
 
 .prototype-2 {
-  padding-bottom: 50px;
-  margin-inline: 20px;
+  margin-bottom: 100px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -287,7 +287,7 @@ a p:hover {
 
 /* select */
 .grid_container5 {
-  margin-inline: 20px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -303,8 +303,8 @@ a p:hover {
 }
 
 .select-2 {
-  padding-bottom: 50px;
-  margin-inline: 20px;
+  margin-bottom: 100px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -313,7 +313,7 @@ a p:hover {
 
 /* implement */
 .grid_container6 {
-  margin-inline: 20px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -329,12 +329,16 @@ a p:hover {
 }
 
 .imp-2 {
-  padding-bottom: 50px;
-  margin-inline: 20px;
+  margin-bottom: 100px;
+  margin-inline: 30px;
   display: flex;
   flex-direction: column;
   place-items: center;
   gap: 5px;
+}
+
+.imp-2 p {
+  padding-bottom: 5px;
 }
 
 /*galleri desktop*/
@@ -360,7 +364,6 @@ a p:hover {
   .define-2 {
     grid-column-start: 2;
     grid-column-end: 3;
-    padding-bottom: 20px;
   }
 
   /* research */
@@ -390,7 +393,6 @@ a p:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin-inline: 50px;
-    margin-bottom: 50px;
   }
 
   .research-2 img {
@@ -419,7 +421,6 @@ a p:hover {
     grid-template-columns: fit-content(500px) fit-content(500px);
     gap: 10px;
     margin-inline: 50px;
-    margin-bottom: 50px;
     place-content: center;
   }
 
@@ -449,7 +450,6 @@ a p:hover {
     grid-template-columns: fit-content(500px) fit-content(500px);
     gap: 10px;
     margin-inline: 50px;
-    margin-bottom: 50px;
     place-content: center;
   }
 
@@ -479,7 +479,6 @@ a p:hover {
     grid-template-columns: fit-content(500px) fit-content(500px);
     gap: 10px;
     margin-inline: 50px;
-    margin-bottom: 50px;
     place-content: center;
   }
 
@@ -509,7 +508,6 @@ a p:hover {
     grid-template-columns: fit-content(300px) fit-content(300px);
     gap: 10px;
     margin-inline: 50px;
-    margin-bottom: 50px;
     place-content: center;
   }
 }

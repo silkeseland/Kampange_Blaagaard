@@ -4,7 +4,7 @@ body {
 }
 /* Menu */
 
-/* Mindre logo placering på de andre sider */
+/* Logo */
 .logo {
   width: 200px;
   height: 90px;
@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-self: center;
 }
+/* menu bjælken */
 .banner {
   background: none;
   display: flex;
@@ -20,6 +21,7 @@ body {
   justify-content: space-between;
   justify-items: center;
 }
+/* menu punkterne bjælke */
 ul {
   padding-top: 10%;
   padding-right: 30px;
@@ -28,10 +30,8 @@ ul {
   justify-content: center;
   list-style: none;
 }
-ol {
-  list-style: none;
-}
 
+/* knap i mobilversion som viser menu */
 .toggle-btn {
   background: transparent;
   border: none;
@@ -42,7 +42,7 @@ ol {
   display: none;
   font-size: 60px;
 }
-
+/* regler for menu knappen i mobilversion */
 @media (max-width: 627px) {
   .toggle-btn {
     display: block;
@@ -85,6 +85,7 @@ a {
     gap: 40px;
     place-items: center center;
   }
+
   .spørgeskema {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -93,6 +94,7 @@ a {
     margin: 70px;
     padding: 30px;
   }
+
   .video {
     padding: 80px;
   }

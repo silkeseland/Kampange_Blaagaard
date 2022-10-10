@@ -85,15 +85,6 @@ a {
     gap: 40px;
     place-items: center center;
   }
-
-  .spørgeskema {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    place-items: center center;
-    margin: 70px;
-    padding: 30px;
-  }
 }
 .kampagnevideo {
   display: grid;
@@ -121,6 +112,7 @@ button:hover {
   box-shadow: inset 0px 0px 1rem 0px #ffffff;
 }
 
+/* knapper i spørgeskemaet */
 .btn_20a {
   border: 2px solid black;
   padding: 14px 41px;
@@ -164,9 +156,10 @@ button:hover {
   cursor: pointer;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 75px;
+  margin-left: 42px;
 }
 
+/* gør så knapper skifter farve i spørgeskemaet */
 .btn_20a:focus {
   background: rgb(189, 184, 184);
 }
@@ -179,6 +172,18 @@ button:hover {
 .btn_øl:focus {
   background: rgb(189, 184, 184);
 }
-.billede {
-  gap: 30px;
+@media (min-width: 627px) {
+  .overskrift {
+    place-items: center center;
+    text-align: center;
+    display: block;
+  }
+  .spørgeskema {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    place-items: center center;
+    margin: 70px;
+    padding: 30px;
+  }
 }

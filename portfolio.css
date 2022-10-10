@@ -82,6 +82,9 @@ hr {
     margin-bottom: 5rem;
   }
 }
+.start img {
+  max-width: 100%;
+}
 
 @media screen and (min-width: 730px) {
   .start {

@@ -29,3 +29,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 65ch;
 }
+.toggle-btn:hover {
+  box-shadow: none;
+}

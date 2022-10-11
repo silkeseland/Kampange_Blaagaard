@@ -187,3 +187,12 @@ button:hover {
     padding: 30px;
   }
 }
+.splash {
+  width: 100%;
+  height: 50vh;
+  background-image: url("skrig.png");
+  background-size: cover;
+  background-position: 55% 5%;
+  color: white;
+  text-align: center;
+}

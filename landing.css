@@ -197,6 +197,7 @@ button:hover {
   color: white;
   text-align: center;
 }
+
 /* footer*/
 h3 {
   font-family: "Bebas Neue", cursive;
@@ -237,4 +238,15 @@ footer {
 a p {
   font-size: 1rem;
   line-height: 20px;
+}
+
+@media screen and (min-width: 730px) {
+  .mySlides {
+    padding: 50px;
+    width: 100%;
+  }
+  .galleri {
+    width: 70%;
+    margin: auto;
+  }
 }

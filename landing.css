@@ -196,3 +196,44 @@ button:hover {
   color: white;
   text-align: center;
 }
+/* footer*/
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  color: black;
+}
+.footer_flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer_left {
+  line-height: 40px;
+  justify-self: start;
+}
+
+.footer_right img {
+  padding: 30px 10% 30px 10%;
+  justify-self: end end;
+  float: right;
+}
+
+.footer_flex img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  float: right;
+}
+footer {
+  padding: 30px;
+}
+.footer_rettigheder {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+a p {
+  font-size: 1rem;
+  line-height: 20px;
+}

@@ -82,6 +82,9 @@ hr {
     margin-bottom: 5rem;
   }
 }
+.start img {
+  max-width: 100%;
+}
 
 @media screen and (min-width: 730px) {
   .start {
@@ -524,7 +527,7 @@ a p:hover {
   justify-content: space-between;
 }
 .footer_left {
-  line-height: 25px;
+  line-height: 40px;
   justify-self: start;
 }
 
@@ -536,4 +539,11 @@ img {
   width: 100%;
   max-width: 500px;
   max-height: 500px;
+  float: right;
+}
+.footer_flex img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  float: right;
 }

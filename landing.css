@@ -89,7 +89,7 @@ a {
 .kampagnevideo {
   display: grid;
   place-items: center center;
-  margin: 70px;
+  margin: 50px;
   padding: 30px;
 }
 @media screen and (min-width: 730px) {
@@ -113,78 +113,72 @@ button:hover {
 }
 
 /* knapper i spørgeskemaet */
-.btn_20a {
+.btn_sp {
   border: 2px solid black;
+  width: 300px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+
+  /* border: 2px solid black;
   padding: 14px 41px;
   font-size: 18px;
   cursor: pointer;
   display: inline-block;
   margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; */
 }
-.btn_durum {
-  border: 2px solid black;
-  padding: 14px 36px;
-  font-size: 18px;
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.btn_rabat {
-  border: 2px solid black;
-  padding: 14px 52px;
-  font-size: 18px;
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.btn_øl {
-  border: 2px solid black;
-  padding: 14px 60px;
-  font-size: 18px;
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .btn_send {
   border: 2px solid black;
+  width: 200px;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+  cursor: pointer;
+  text-align: center;
+  margin: 15px;
+  font-size: 1.5rem;
+
+  /* border: 2px solid black;
   padding: 7px 60px 7px 60px;
   background-color: rgb(129, 174, 102);
   cursor: pointer;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 42px;
+  margin-left: 42px; */
 }
 
 /* gør så knapper skifter farve i spørgeskemaet */
-.btn_20a:focus {
-  background: rgb(189, 184, 184);
+.btn_sp:focus {
+  background: rgb(144, 240, 75);
 }
-.btn_durum:focus {
-  background: rgb(189, 184, 184);
+
+/* spørgeskema */
+.spørgeskema {
+  display: grid;
+  grid-template-columns: 1fr;
 }
-.btn_rabat:focus {
-  background: rgb(189, 184, 184);
+.overskrift {
+  display: grid;
+  justify-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  margin: 20px;
 }
-.btn_øl:focus {
-  background: rgb(189, 184, 184);
-}
+
+/* desktop version spørgeskema */
 @media (min-width: 627px) {
-  .overskrift {
-    place-items: center center;
-    text-align: center;
-    display: block;
-  }
   .spørgeskema {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    place-items: center center;
-    margin: 70px;
-    padding: 30px;
+    grid-template-columns: 1fr;
+  }
+  .overskrift {
+    display: grid;
+    /* justify-items: start; */
+    /* justify-content: center; */
+    margin: 20px;
   }
 }
 .splash {

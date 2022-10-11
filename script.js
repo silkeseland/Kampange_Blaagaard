@@ -1,6 +1,11 @@
+/** @format */
+
+console.log("loading js");
 const btn = document.querySelector(".toggle-btn");
 const menu = document.querySelector(".main-menu");
+btn.addEventListener("click", toggleMenu);
 function toggleMenu() {
+  console.log("tooglemenu");
   menu.classList.toggle("shown");
   const menuShown = menu.classList.contains("shown");
   if (menuShown) {

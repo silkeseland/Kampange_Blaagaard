@@ -89,8 +89,9 @@ a {
 .kampagnevideo {
   display: grid;
   place-items: center center;
-  margin: 50px;
-  padding: 30px;
+  margin: 30px;
+  font-size: 1.1rem;
+  /* padding: 30px; */
 }
 @media screen and (min-width: 730px) {
   .kampagnevideo {
@@ -176,7 +177,7 @@ button:hover {
   }
   .overskrift {
     display: grid;
-    /* justify-items: start; */
+    justify-items: center;
     /* justify-content: center; */
     margin: 20px;
   }

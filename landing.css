@@ -64,6 +64,9 @@ ul {
     flex-flow: column;
   }
 }
+.main-menu ul li:hover {
+  padding-left: 10px;
+}
 video {
   width: 100%;
   height: auto;
@@ -72,6 +75,9 @@ video {
 a {
   font-family: "Bebas Neue", cursive;
   font-size: 1.6rem;
+}
+a p:hover {
+  padding-left: 10px;
 }
 /* underline på valgte menu*/
 .valgt {

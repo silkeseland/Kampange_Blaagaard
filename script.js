@@ -1,5 +1,3 @@
-/** @format */
-
 console.log("loading js");
 const btn = document.querySelector(".toggle-btn");
 const menu = document.querySelector(".main-menu");

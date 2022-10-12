@@ -158,7 +158,7 @@ button:hover {
 
 /* gør så knapper skifter farve i spørgeskemaet */
 .btn_sp:focus {
-  background: rgb(144, 240, 75);
+  background: #0069f0;
 }
 
 /* spørgeskema */

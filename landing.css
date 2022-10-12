@@ -254,3 +254,12 @@ iframe {
   aspect-ratio: 16/9;
   margin: auto;
 }
+.video {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center center;
+}
+.video h1 {
+  font-size: 4rem;
+  text-align: center;
+}
